@@ -21,4 +21,6 @@ def qr_gen(text):  # function to generate qr code
     img.save("myqrcode.png")
 
 
-qr_gen("www.soyandyleal.com")
+usr_url = input("Enter the URL you want to convert to QR code: ")
+qr_gen(usr_url)
+# qr_gen("www.soyandyleal.com")
