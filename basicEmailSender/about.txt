@@ -1,0 +1,11 @@
+The email sender was constructed using Python 3.
+It's a script using Python's built-in libraries.
+
+Task List:
+- Implement environment variables or secure vaults to secure sensitive information.
+- Use the email library to attatch files or other to the emails.
+- Implement error handling such as try-except blocks around critical operations such as sending the email or login
+
+Sources used:
+https://docs.python.org/3/library/email.examples.html
+https://temp-mail.org/en/

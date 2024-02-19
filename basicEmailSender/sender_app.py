@@ -7,6 +7,7 @@ import smtplib
 
 # Credentials for the email account and recipient (I dont recommend using this for real world use, storing the password here is unsafe, use environment variables instead)
 sending_from = 'Your Email Here'
+# I used an app password for this, which can be generated from the google account settings
 sending_password = 'Enter App Password Here'
 recipient = 'example@recipient.com'
 
