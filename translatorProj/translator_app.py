@@ -10,7 +10,7 @@ try:
         inputText = input('Enter text to translate: ')
         userInput.write(inputText)
 
-    # Reads the file and translates the text
+    # Read the file and translate the text
     with open('./txt4transl.txt', mode='r') as translateFile:
         text = translateFile.read()
         translated = translator.translate(text)
@@ -18,5 +18,6 @@ try:
 
     with open('./translation.txt', mode='w', encoding='utf-8') as translationFile:
         translationFile.write(translated)
+
 except FileNotFoundError as err:
     print('File not found')
